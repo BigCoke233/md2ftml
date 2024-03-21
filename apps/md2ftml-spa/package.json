@@ -1,0 +1,29 @@
+{
+  "name": "@md2ftml/spa",
+  "version": "0.1.0",
+  "scripts": {
+    "reset": "npx rimraf ./**/node_modules",
+    "dev": "modern dev",
+    "build": "modern build",
+    "start": "modern start",
+    "serve": "modern serve",
+    "new": "modern new",
+    "lint": "modern lint",
+    "upgrade": "modern upgrade"
+  },
+  "dependencies": {
+    "@modern-js/runtime": "2.48.3",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0"
+  },
+  "devDependencies": {
+    "@modern-js/app-tools": "2.48.3",
+    "@modern-js/eslint-config": "2.48.3",
+    "@modern-js/tsconfig": "2.48.3",
+    "@modern-js-app/eslint-config": "2.48.3",
+    "lint-staged": "~13.1.0",
+    "prettier": "~2.8.1",
+    "husky": "~8.0.1",
+    "rimraf": "~3.0.2"
+  }
+}

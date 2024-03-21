@@ -1,6 +1,18 @@
 {
   "folders": [
     {
+      "name": "md2ftml-spa",
+      "path": "apps/md2ftml-spa/"
+    },
+    {
+      "name": "md2ftml-editor",
+      "path": "packages/md2ftml-editor/"
+    },
+    {
+      "name": "md2ftml-parser",
+      "path": "packages/md2ftml-parser/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -23,7 +35,10 @@
       "**/node_modules": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
