@@ -74,6 +74,13 @@ importers:
         version: 3.0.2
 
   packages/md2ftml-editor:
+    dependencies:
+      '@md2ftml/parser':
+        specifier: workspace:^
+        version: link:../md2ftml-parser
+      react:
+        specifier: ~18.2.0
+        version: 18.2.0
     devDependencies:
       '@modern-js/eslint-config':
         specifier: 2.48.3
