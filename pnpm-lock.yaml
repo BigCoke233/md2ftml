@@ -32,6 +32,12 @@ importers:
 
   apps/md2ftml-spa:
     dependencies:
+      '@md2ftml/editor':
+        specifier: workspace:^
+        version: link:../../packages/md2ftml-editor
+      '@md2ftml/parser':
+        specifier: workspace:^
+        version: link:../../packages/md2ftml-parser
       '@modern-js/runtime':
         specifier: 2.48.3
         version: 2.48.3(react-dom@18.2.0)(react@18.2.0)(webpack@5.91.0)
