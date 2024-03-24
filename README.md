@@ -1,5 +1,7 @@
 # MD2FTML
 
+***⚠️🚧 Note that this project is still in progress.***
+
 JavaScript toolkits that lets you convert Markdown to FTML.
 
 ## Introduction
@@ -20,18 +22,40 @@ me and other markdown lovers write in our favorite languages
 and make our works portable, no need to re-format them when posting to
 other platforms.
 
-## Usage
+## Development
 
-Note that this project is still is process. There's no stable version
-available. But if you would like to try or help developing, run this
-command to clone repository.
+MD2FTML is based on Modern.js and its monorepo toolkit. 
+The repository use pnpm as its package manager, 
+so make sure you have pnpm installed on your machine.
+
+Run these commands to clone repository and install dependencies.
 
 ```
 git clone https://github.com/BigCoke233/md2ftml.git
+cd md2ftml
+pnpm install
 ```
 
-or run this command to install.
+MD2FTML consists of one Single-Page App and two packages.
 
 ```
-npm install md2ftml
+# in project root
+cd apps/md2ftml-spa         # the web app
+cd packages/md2ftml-parser  # parser library
+cd packages/md2ftml-editor  # editor component
 ```
+
+`cd` into each package's direcotry and run this command 
+to watch file changes and build packages real-time.
+
+```
+pnpm run build:watch
+```
+
+`cd` into app directory and run this command to start developing
+
+```
+pnpm run dev
+```
+
+Now you are good to go.
