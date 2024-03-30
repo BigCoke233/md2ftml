@@ -1,4 +1,5 @@
 import './index.css';
+
 import React from 'react';
 import rehypeSanitize from 'rehype-sanitize';
 import MDEditor from '@uiw/react-md-editor';
@@ -8,6 +9,10 @@ export default function () {
   const [value, setValue] = React.useState('**Hello world!!!**');
   return (
     <div id={`md2ftml-editor`}>
+      <h1 className={`text-2xl`}>
+        Convert Markdown to Wikidot Syntax.{' '}
+        <span className={`label`}>Alpha</span>
+      </h1>
       <MDEditor
         value={value}
         onChange={setValue}

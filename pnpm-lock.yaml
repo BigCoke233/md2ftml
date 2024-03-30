@@ -38,6 +38,9 @@ importers:
       '@md2ftml/parser':
         specifier: workspace:^
         version: link:../../packages/md2ftml-parser
+      '@modern-js/plugin-tailwindcss':
+        specifier: 2.48.3
+        version: 2.48.3(@modern-js/runtime@2.48.3)(tailwindcss@3.3.7)
       '@modern-js/runtime':
         specifier: 2.48.3
         version: 2.48.3(react-dom@18.2.0)(react@18.2.0)(webpack@5.91.0)
@@ -72,6 +75,9 @@ importers:
       rimraf:
         specifier: ~3.0.2
         version: 3.0.2
+      tailwindcss:
+        specifier: ~3.3.3
+        version: 3.3.7
 
   packages/md2ftml-editor:
     dependencies:
@@ -80,7 +86,7 @@ importers:
         version: link:../md2ftml-parser
       '@modern-js/plugin-tailwindcss':
         specifier: 2.48.3
-        version: 2.48.3(tailwindcss@3.3.7)
+        version: 2.48.3(@modern-js/runtime@2.48.3)(tailwindcss@3.3.7)
       '@uiw/react-md-editor':
         specifier: ^4.0.4
         version: 4.0.4(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
@@ -2795,7 +2801,7 @@ packages:
       husky: 8.0.3
     dev: true
 
-  /@modern-js/plugin-tailwindcss@2.48.3(tailwindcss@3.3.7):
+  /@modern-js/plugin-tailwindcss@2.48.3(@modern-js/runtime@2.48.3)(tailwindcss@3.3.7):
     resolution: {integrity: sha512-0iJ1iJmfNZRZl3noPZx4xy7izHuiWjLBNIek1zQrabjctNMuFoTvvdY8ZTntENrh13cbMkDMqOUghueH0cOwmQ==}
     peerDependencies:
       '@modern-js/runtime': ^2.48.3
@@ -2805,6 +2811,7 @@ packages:
         optional: true
     dependencies:
       '@modern-js/node-bundle-require': 2.48.3
+      '@modern-js/runtime': 2.48.3(react-dom@18.2.0)(react@18.2.0)(webpack@5.91.0)
       '@modern-js/utils': 2.48.3
       '@swc/helpers': 0.5.3
       babel-plugin-macros: 3.1.0

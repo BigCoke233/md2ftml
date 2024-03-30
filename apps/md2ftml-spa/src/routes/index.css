@@ -16,7 +16,27 @@ p {
 }
 
 main {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+span.label {
+  display: inline-block;
+  background-color: #8e1519;
+  color: white;
+  font-size: 0.7em;
+  padding: 0 0.45rem;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  body, textarea {
+    background-color: #0D1117;
+    color: white
+  }
+  textarea {
+    border-color: #30363D
+  }
 }
