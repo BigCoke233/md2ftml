@@ -74,12 +74,12 @@ const MDParser = {
     parsed = escaped.protectedText;
 
     // block elements
-    parsed = MDParser.parseHeadings(parsed);
-    parsed = MDParser.parseSetextHeadings(parsed);
     parsed = MDParser.parseTable(parsed);
     parsed = MDParser.parseUnorderedList(parsed);
     parsed = MDParser.parseOrderedList(parsed);
     parsed = MDParser.parseHR(parsed);
+    parsed = MDParser.parseHeadings(parsed);
+    parsed = MDParser.parseSetextHeadings(parsed);
 
     // inline elements
     parsed = MDParser.parseItalic(parsed);
