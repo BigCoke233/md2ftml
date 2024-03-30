@@ -77,7 +77,7 @@ const MDParser = {
     parsed = MDParser.parseHeadings(parsed);
     parsed = MDParser.parseSetextHeadings(parsed);
     parsed = MDParser.parseTable(parsed);
-    // parsed = MDParser.parseUnorderedList(parsed);
+    parsed = MDParser.parseUnorderedList(parsed);
     parsed = MDParser.parseOrderedList(parsed);
     parsed = MDParser.parseHR(parsed);
 

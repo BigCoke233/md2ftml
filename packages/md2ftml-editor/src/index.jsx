@@ -15,7 +15,10 @@ export default function () {
           rehypePlugins: [[rehypeSanitize]],
         }}
       />
-      <textarea style={{ padding: '1rem' }} value={md2ftml.parse(value)} />
+      <textarea
+        style={{ padding: '1rem', width: '100%', height: '400px' }}
+        value={md2ftml.parse(value)}
+      />
     </div>
   );
 }

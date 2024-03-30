@@ -3,7 +3,7 @@
  * @param text
  */
 export const parseUnorderedList = text => {
-  return text.replace(/(\s?)- (.*?)/g, '$1* $2');
+  return text.replace(/(\s?)[-+] (.*?)/g, '$1* $2');
 };
 
 /**
