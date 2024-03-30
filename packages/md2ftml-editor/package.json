@@ -14,15 +14,9 @@
   "dependencies": {
     "@md2ftml/parser": "workspace:^",
     "@modern-js/plugin-tailwindcss": "2.48.3",
-    "@nytimes/react-prosemirror": "^0.6.1",
-    "@remirror/pm": "^2.0.8",
-    "@remirror/react": "^2.0.35",
     "@uiw/react-md-editor": "^4.0.4",
-    "prosemirror-schema-basic": "^1.2.2",
-    "prosemirror-state": "^1.4.3",
     "react": "~18.2.0",
-    "rehype-sanitize": "^6.0.0",
-    "remirror": "^2.0.39"
+    "rehype-sanitize": "^6.0.0"
   },
   "devDependencies": {
     "@modern-js/eslint-config": "2.48.3",
