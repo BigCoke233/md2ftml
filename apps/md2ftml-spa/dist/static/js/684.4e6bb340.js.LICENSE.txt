@@ -1,0 +1,204 @@
+/*! ./utils */
+
+/*! ../../core */
+
+/*! @swc/helpers/_/_to_consumable_array */
+
+/*! ../runtimeContext */
+
+/*! @swc/helpers/_/_sliced_to_array */
+
+/*! ../runtimeContext */
+
+/*! ./nestedRoutes */
+
+/*! ./_array_with_holes.js */
+
+/*! invariant */
+
+/*! @swc/helpers/_/_sliced_to_array */
+
+/*! @modern-js/runtime/router */
+
+/*! tslib */
+
+/*! react-router-dom */
+
+/*! ./_unsupported_iterable_to_array.js */
+
+/*! @swc/helpers/_/_object_spread_props */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/*! @modern-js/runtime-utils/browser */
+
+/*! ./_unsupported_iterable_to_array.js */
+
+/*! ./plugin */
+
+/*! @modern-js/runtime/router */
+
+/*! @swc/helpers/_/_to_consumable_array */
+
+/*! @_modern_js_src/routes/layout */
+
+/*! react/jsx-runtime */
+
+/*! ./_iterable_to_array.js */
+
+/*! ../time */
+
+/*! ./_define_property.js */
+
+/*! react */
+
+/*! ./_non_iterable_spread.js */
+
+/*! @swc/helpers/_/_object_spread_props */
+
+/*! react/jsx-runtime */
+
+/*! @modern-js/runtime-utils/router */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! ./_non_iterable_rest.js */
+
+/*! ./compatible */
+
+/*! @swc/helpers/_/_ts_generator */
+
+/*! @_modern_js_internal/main/routes */
+
+/*! react */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ./_array_without_holes.js */
+
+/*! react/jsx-runtime */
+
+/*! @modern-js/utils/universal/constants */
+
+/*! react-dom/client */
+
+/*! react-is */
+
+/*! @_modern_js_src/routes/page */
+
+/*! @swc/helpers/_/_ts_generator */
+
+/*! ./_iterable_to_array_limit.js */
+
+/*! @remix-run/router */
+
+/*! react */
+
+/*! @modern-js/runtime-utils/remix-router */
+
+/*! @swc/helpers/_/_async_to_generator */
+
+/*! @swc/helpers/_/_async_to_generator */
+
+/*! @swc/helpers/_/_async_to_generator */
+
+/*! @modern-js/runtime-utils/router */
+
+/*! @_modern_js_src/routes/page */
+
+/*! @modern-js/runtime/plugins */
+
+/*! react */
+
+/*! @swc/helpers/_/_object_without_properties */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! @modern-js/runtime-utils/parsed */
+
+/*! @swc/helpers/_/_to_consumable_array */
+
+/*! ./runtime */
+
+/*! @modern-js/plugin */
+
+/*! ./loader/loaderManager */
+
+/*! @modern-js/plugin */
+
+/*! @swc/helpers/_/_object_without_properties */
+
+/*! @modern-js/utils/universal/constants */
+
+/*! @swc/helpers/_/_define_property */
+
+/*! ./_array_like_to_array.js */
+
+/*! react-router-dom */
+
+/*! @modern-js/utils/universal/constants */
+
+/*! @swc/helpers/_/_to_consumable_array */
+
+/*! ./_array_like_to_array.js */
+
+/*! react/jsx-runtime */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! ./routeModule */
+
+/*! ./plugin */
+
+/*! ./core */
+
+/*! ./cjs/react-is.production.min.js */
+
+/*! @swc/helpers/_/_sliced_to_array */
+
+/*! @swc/helpers/_/_ts_generator */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! @swc/helpers/_/_instanceof */
+
+/*! @modern-js/utils/universal/plugin-dag-sort */
+
+/*! ./DeferredDataScripts */
+
+/*! ./DefaultNotFound */
+
+/*! @swc/helpers/_/_instanceof */
+
+/*! @swc/helpers/_/_object_spread_props */
+
+/*! @_modern_js_src/routes/layout */
+
+/*! ./hooks */
+
+/*! hoist-non-react-statics */
+
+/*! @modern-js/runtime-utils/router */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! @swc/helpers/_/_object_spread */
+
+/*! @modern-js/runtime */
+
+/*! ./_object_without_properties_loose.js */
+
+/*! hoist-non-react-statics */
+
+/*! @modern-js/plugin */
+
+/*! react */
